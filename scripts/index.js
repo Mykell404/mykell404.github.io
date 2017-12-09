@@ -9,7 +9,7 @@ $(window).on('resize', function() {
       wScrollBefore = 0,
       wScrollDiff = 0; 
       window.addEventListener('scroll', function () {
-        // Hide the displayed menu. If you want to scroll, you're obviously not interested in the options.
+        // Hide the displayed menu. 
         $('.navbar-collapse').collapse('hide');
         $('.navbar-toggle').addClass('collapsed').blur();
         if($(window).width() <= 768) {
